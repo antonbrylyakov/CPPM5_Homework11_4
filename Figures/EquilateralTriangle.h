@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include "IsoScelesTriangle.h"
 
-class EquilateralTriangle : public IsoScelesTriangle
+class FIGURES_API EquilateralTriangle : public IsoScelesTriangle
 {
 public:
-	FIGURES_API EquilateralTriangle(double a);
+	EquilateralTriangle(double a);
 };

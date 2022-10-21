@@ -1,27 +1,27 @@
 ﻿#pragma once
 #include "Figure.h"
 
-class Triangle : public Figure
+class FIGURES_API Triangle : public Figure
 {
 public:
-	FIGURES_API Triangle(double a, double b, double c, double A, double B, double C);
+	Triangle(double a, double b, double c, double A, double B, double C);
 
-	FIGURES_API double geta();
+	double geta();
 
-	FIGURES_API double getb();
+	double getb();
 
-	FIGURES_API double getc();
+	double getc();
 
-	FIGURES_API double getA();
+	double getA();
 
-	FIGURES_API double getB();
+	double getB();
 
-	FIGURES_API double getC();
+	double getC();
 
 protected:
-	FIGURES_API void printSideInfo() override;
+	void printSideInfo() override;
 
-	FIGURES_API void printAngleInfo() override;
+	void printAngleInfo() override;
 
 private:
 	double _a, _b, _c, _A, _B, _C;

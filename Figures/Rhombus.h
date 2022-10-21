@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include "Parallelogram.h"
 
-class Rhombus : public Parallelogram
+class FIGURES_API Rhombus : public Parallelogram
 {
 public:
-	FIGURES_API Rhombus(double a, double A, double B);
+	Rhombus(double a, double A, double B);
 };
 

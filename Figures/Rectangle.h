@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include "Parallelogram.h"
 
-class Rectangle : public Parallelogram
+class FIGURES_API Rectangle : public Parallelogram
 {
 public:
-	FIGURES_API Rectangle(double a, double b);
+	Rectangle(double a, double b);
 };

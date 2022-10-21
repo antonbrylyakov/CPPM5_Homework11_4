@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include "Quadrangle.h"
 
-class Parallelogram : public Quadrangle
+class FIGURES_API Parallelogram : public Quadrangle
 {
 public:
-	FIGURES_API Parallelogram(double a, double b, double A, double B);
+	Parallelogram(double a, double b, double A, double B);
 };
 

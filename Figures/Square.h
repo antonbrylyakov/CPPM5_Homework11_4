@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include "Rectangle.h"
 
-class Square : public Rectangle
+class FIGURES_API Square : public Rectangle
 {
 public:
-	FIGURES_API Square(double a);
+	Square(double a);
 };
 
